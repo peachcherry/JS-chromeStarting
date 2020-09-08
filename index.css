@@ -1,0 +1,137 @@
+body{
+    background-color: #ffcccc;
+}
+
+
+h1{
+    color: #f1f2f6;
+    font-size: 160px;
+   
+}
+.js-clock{
+    position:absolute;
+    top:35%; left:50%;
+    transform: translate(-50%, -50%);
+    }
+h4{
+    color: #FD7272;
+    font-size: 30pt;
+    word-spacing: 10pt;
+    
+    position:absolute;
+    top:45%; left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.clicked{
+    color: #f5cd79;
+}
+.form{
+    display: none;
+    
+}
+.greetings{
+    display: none;
+     
+ 
+}
+
+.showing{
+    display: block;
+    position:absolute;
+    top:45%; left:50%;
+    transform: translate(-50%, -50%);
+    }
+
+.js-toDoForm{
+    display: block;
+    position:absolute;
+    top:55%; left:50%;
+    transform: translate(-50%, -50%);
+    }
+    
+.js-toDoList{
+    position:absolute;
+    top:67%; left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+input[type="text"]{ 
+    height: auto; /* 높이 초기화 */ 
+    line-height: normal; /* line-height 초기화 */ 
+    padding-top: 15px; /* 여백 설정 */
+    padding-left: 80px;
+    padding-right: 70px;
+    border-style: none none dashed none;
+    border-color: #718093;
+    border-width: 3pt;
+    
+    background-color: transparent;
+ 
+
+}
+
+ul li{
+    list-style-type:none;
+    padding-top: 10px;
+    padding-right: 70px;
+    color: #7f8fa6;
+
+
+}
+
+button{
+    background-color: transparent;
+    border: 0 none;
+    padding: 5px 25px;
+    color: red;
+    
+}
+span{
+    background-color: #f1f2f6;
+    font-weight: bold;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.js-weather{
+    color: #ff6b81;
+    position:absolute;
+    top:90%; left:50%;
+    transform: translate(-50%, -50%);
+    }
+
+
+
+.bgImage{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;  
+}
